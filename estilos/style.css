@@ -1,0 +1,1131 @@
+@font-face {
+    font-family: Estedad-VF;
+    src: url(../fuentes/Estedad[wght\,kshd].ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    transition: 0.5s;
+}
+
+header {
+    width: auto;
+    z-index: 1;
+}
+
+body {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+}
+
+.fondo {
+
+    width: 100%;
+    height: 921px;
+    left: 0px;
+    top: 0px;
+    opacity: 0.9;
+}
+
+
+.hTitle {
+    width: auto;
+    height: auto;
+
+    font-family: 'Estedad-VF';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 44px;
+    text-decoration: none;
+
+    color: #333232;
+
+}
+
+.contLogo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 33px;
+
+    width: auto;
+    height: auto;
+
+}
+
+.lista {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0px;
+    gap: 53px;
+
+    width: auto;
+    height: auto;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.ordenarNav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 60px;
+    /* gap: 911px; */
+
+    position: absolute;
+    height: auto;
+    left: 0%;
+    right: 0%;
+    top: 48px;
+}
+
+.lista a {
+
+    font-family: 'Estedad-VF';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 19.6px;
+    line-height: 35px;
+    list-style: none;
+    text-decoration: none;
+
+    color: #333232;
+}
+
+.btnComp {
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 16px 30px;
+    gap: 10px;
+
+    width: 138px;
+    height: 67px;
+
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    border-radius: 10px;
+
+
+}
+
+.lista .qs {
+    width: 134px;
+    height: 35px;
+}
+
+.cuadroIndex {
+    position: absolute;
+    width: 384px;
+    height: 500px;
+    left: 313px;
+    top: 181px;
+}
+
+.textoIndex {
+    position: absolute;
+    width: 514px;
+    height: 49px;
+    left: 248px;
+    top: 741px;
+    font-family: 'Estedad-VF';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 49px;
+
+    color: #333232;
+}
+
+.contenedor {
+    display: flex;
+    position: absolute;
+    width: 100%;
+    height: 740px;
+    left: 0px;
+    top: 913px;
+    overflow: hidden;
+    align-items: center;
+
+
+    background: linear-gradient(180deg, #DCDCDC 0%, #E9E9E9 7.97%, #E9E9E9 90.4%, #FCFCFC 100%);
+}
+
+.contenedor .carousel {
+    display: flex;
+    animation: scroll 90s linear infinite;
+    -webkit-animation: scroll 90s linear infinite;
+    ;
+    width: calc(430.89px * 26);
+}
+
+.contenedor .slide {
+    width: 430.89px;
+}
+
+.contenedor .slide img {
+    width: 100%;
+}
+
+@keyframes scroll {
+    0% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+
+    100% {
+        -webkit-transform: translateX(calc(-430.89px * 13));
+        transform: translateX(calc(-430.89px * 13));
+    }
+}
+
+.scaner {
+
+    width: 345px;
+    height: 249px;
+    /* left: 415px;
+    top: 1784px; */
+
+}
+
+.titulo {
+    font-family: 'Estedad-VF';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 35px;
+
+    color: #000000;
+}
+
+.tips {
+    font-family: 'Estedad-VF';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+
+
+    color: #000000;
+}
+
+.search {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 86px;
+    margin-left: 7px;
+
+    /* left: 90px;
+    top: 126px; */
+
+
+}
+
+.cam {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 141px;
+    margin-left: 7px;
+    /* left: 229px;
+    top: 178px; */
+
+
+}
+
+.spotify {
+
+    width: 344.38px;
+    height: 85px;
+    margin-left: 450px;
+    /* left: 1160px;
+    top: 1896px; */
+
+}
+
+/*Quienes somos*/
+
+.artQS {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 200px;
+    position: absolute;
+    width: 1602.31px;
+    height: 500px;
+    left: 159px;
+    top: 320px;
+}
+
+.secQS {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 70px;
+    width: 853px;
+    height: 457px;
+
+}
+
+.qsTitle {
+    width: 153px;
+    height: 39px;
+    font-family: 'Estedad-VF';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 39px;
+}
+
+.pQS {
+    width: 853px;
+    height: 375px;
+    font-family: 'Estedad-VF';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 25px;
+}
+
+.imgFundadores {
+    width: 549.31px;
+    height: 500px;
+
+    border-radius: 15px;
+}
+
+/*Productos*/
+
+.mainProd {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 77px;
+    position: absolute;
+    width: 1700px;
+    left: 110px;
+    top: 27.78%;
+    bottom: 13.43%;
+}
+
+.mainProd .titProd {
+    width: 183px;
+    height: 59px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.mainProd .nT {
+    position: absolute;
+    width: 183px;
+    height: 39px;
+    left: 0px;
+    top: 0px;
+    font-family: 'Estedad-VF';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 39px;
+    color: #000000;
+}
+
+.mainProd .eC {
+    position: absolute;
+    width: 120px;
+    height: 28px;
+    left: 0px;
+    top: 31px;
+    font-family: 'Estedad-VF';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 16px;
+    line-height: 28px;
+    color: #000000;
+}
+
+.cuadros {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 100px;
+    width: 1700px;
+    height: 512px;
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.cuadroXL {
+    width: 381px;
+    height: 512px;
+    /* Inside auto layout */
+}
+
+.cuadroXL .cuadroBTS {
+
+    width: 308.12px;
+    height: 450px;
+    left: 0px;
+    top: 62px;
+}
+
+.cuadroXL .c1P30 {
+    display: flex;
+    width: 34px;
+    height: 32px;
+    /* right: 1529px;
+    top: 0px; */
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 32px;
+    /* identical to box height, or 229% */
+    color: #000000;
+}
+
+
+
+.c1P45 {
+    /* position: absolute; */
+    width: 34px;
+    height: 32px;
+    right: 1319px;
+    top: 271px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 32px;
+    /* identical to box height, or 229% */
+    color: #000000;
+}
+
+.line18 {
+    position: absolute;
+    width: 450px;
+    right: 1145px;
+    top: 420px;
+    transform: rotate(-90deg);
+
+}
+
+
+.line19 {
+    margin-bottom: 20px;
+    width: 307px;
+   
+    right: 1396px;
+    top: 32px;
+
+}
+
+.cuadroL {
+    width: 379px;
+    height: 462px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.cuadroOR {
+    position: absolute;
+    width: 306.92px;
+    height: 400px;
+    left: 528px;
+    top: 62px;
+}
+
+.c2P30 {
+    position: absolute;
+    width: 34px;
+    height: 32px;
+    right: 1002px;
+    top: 0px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 32px;
+    /* identical to box height, or 229% */
+    color: #000000;
+}
+
+.c2P40 {
+    position: absolute;
+    width: 34px;
+    height: 32px;
+    right: 793px;
+    top: 246px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 32px;
+    /* identical to box height, or 229% */
+    color: #000000;
+}
+
+.line21 {
+    position: absolute;
+    width: 400px;
+    height: 0px;
+    right: 435px;
+    top: 462px;
+    border: 1px solid #000000;
+    transform: rotate(-90deg);
+}
+
+.line20 {
+    position: absolute;
+    width: 300px;
+    height: 0px;
+    right: 869px;
+    top: 32px;
+    border: 1px solid #000000;
+}
+
+.cuadroM {
+    width: 277px;
+    height: 362px;
+    /* Inside auto layout */
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+
+.cuadroPR {
+    position: absolute;
+    width: 204.97px;
+    height: 300px;
+    left: 1054px;
+    top: 62px;
+    background-image: url(/imagenes/PESCADO\ RABIOSO\ ARTAUD\ 20X30\ MARCO\ 1.png);
+}
+
+.c3P20 {
+    position: absolute;
+    width: 34px;
+    height: 32px;
+    right: 527px;
+    top: 0px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 32px;
+    /* identical to box height, or 229% */
+    color: #000000;
+}
+
+.c3P30 {
+    position: absolute;
+    width: 34px;
+    height: 32px;
+    right: 369px;
+    top: 196px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 32px;
+    /* identical to box height, or 229% */
+    color: #000000;
+}
+
+.line23 {
+    position: absolute;
+    width: 300px;
+    height: 0px;
+    right: 111px;
+    top: 362px;
+    border: 1px solid #000000;
+    transform: rotate(-90deg);
+}
+
+.line22 {
+    position: absolute;
+    width: 200px;
+    height: 0px;
+    right: 444px;
+    top: 32px;
+    border: 1px solid #000000;
+}
+
+.cuadroS {
+    width: 222px;
+    height: 272px;
+    /*Inside auto layout */
+    flex: none;
+    order: 3;
+    flex-grow: 0;
+}
+
+.cuadroTY {
+    position: absolute;
+    width: 152.49px;
+    height: 210px;
+    left: 1478px;
+    top: 62px;
+}
+
+.c4P15 {
+    position: absolute;
+    width: 31px;
+    height: 32px;
+    right: 128px;
+    top: 0px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 32px;
+    /* identical to box height, or 229% */
+    color: #000000;
+}
+
+.c4P21 {
+    position: absolute;
+    width: 31px;
+    height: 32px;
+    right: 0px;
+    top: 151px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 32px;
+    /* identical to box height, or 229% */
+    color: #000000;
+
+}
+
+.line25 {
+    position: absolute;
+    width: 210px;
+    height: 0px;
+    right: -171px;
+    top: 272px;
+    border: 1px solid #000000;
+    transform: rotate(-90deg);
+}
+
+.line24 {
+    position: absolute;
+    width: 150px;
+    height: 0px;
+    right: 69px;
+    top: 32px;
+    border: 1px solid #000000;
+}
+
+/* footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    background-color: #121212;
+
+} */
+
+
+@media (min-width:1501px) {
+    .ordenar {
+        position: relative;
+        top: 904px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 140px;
+
+    }
+}
+
+@media (min-width:1201px) and (max-width:1500px) {
+    .ordenar {
+        position: relative;
+        top: 904px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 140px;
+    }
+
+    .cuadroIndex {
+        position: absolute;
+        margin-bottom: 500px;
+        width: 384px;
+        height: 500px;
+        left: 38%;
+        top: 200px;
+    }
+
+    .textoIndex {
+        position: absolute;
+        width: 514px;
+        height: 49px;
+        left: 33%;
+        top: 0;
+        margin-top: 750px;
+
+        font-family: 'Estedad-VF';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 28px;
+        line-height: 49px;
+
+        color: #333232;
+    }
+
+    .spotify {
+
+        margin-left: 200px;
+        /* left: 1160px;
+        top: 1896px; */
+
+    }
+}
+
+@media (min-width:950px) and (max-width:1200px) {
+
+    .ordenar {
+        position: relative;
+        top: 904px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 140px;
+    }
+
+    .cuadroIndex {
+        position: absolute;
+        width: 384px;
+        height: 500px;
+        left: 35%;
+        top: 200px;
+    }
+
+    .textoIndex {
+        position: absolute;
+        width: 514px;
+        height: 49px;
+        left: 29%;
+        top: 0;
+        margin-top: 750px;
+
+        font-family: 'Estedad-VF';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 28px;
+        line-height: 49px;
+
+        color: #333232;
+    }
+
+    .spotify {
+
+        margin-left: 100px;
+        /* left: 1160px;
+        top: 1896px; */
+
+    }
+
+}
+
+@media (min-width:850px) and (max-width:949px) {
+
+    .ordenarNav {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .ordenarCuadro {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .cuadroIndex {
+        position: absolute;
+        margin-bottom: 500px;
+        width: 384px;
+        height: 500px;
+        left: 30%;
+        top: 270px;
+    }
+
+    .textoIndex {
+        position: absolute;
+        width: 514px;
+        height: 49px;
+        left: 23%;
+        top: 0;
+        margin-top: 830px;
+
+        font-family: 'Estedad-VF';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 28px;
+        line-height: 49px;
+
+        color: #333232;
+    }
+
+
+    .ordenar {
+        position: relative;
+        top: 904px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        padding-bottom: 140px;
+    }
+
+    .spotify {
+
+        margin-left: 0;
+        margin-top: 20px;
+        /* left: 1160px;
+        top: 1896px; */
+
+    }
+
+
+}
+
+@media (min-width:740px) and (max-width:849px) {
+
+    .ordenarNav {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .cuadroIndex {
+        position: absolute;
+        margin-bottom: 500px;
+        width: 384px;
+        height: 500px;
+        left: 27%;
+        top: 270px;
+    }
+
+    .textoIndex {
+        position: absolute;
+        width: 514px;
+        height: 49px;
+        left: 19%;
+        top: 0;
+        margin-top: 830px;
+
+        font-family: 'Estedad-VF';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 28px;
+        line-height: 49px;
+
+        color: #333232;
+    }
+
+    .ordenar {
+        position: relative;
+        top: 904px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        padding-bottom: 140px;
+    }
+
+    .spotify {
+
+        margin-left: 0;
+        margin-top: 20px;
+        /* left: 1160px;
+        top: 1896px; */
+
+    }
+
+
+}
+
+@media (min-width:640px) and (max-width:739px) {
+
+    .ordenarNav {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .cuadroIndex {
+        position: absolute;
+        margin-bottom: 500px;
+        width: 384px;
+        height: 500px;
+        left: 23%;
+        top: 270px;
+    }
+
+    .textoIndex {
+        position: absolute;
+        width: 514px;
+        height: 49px;
+        left: 16%;
+        top: 0;
+        margin-top: 830px;
+
+        font-family: 'Estedad-VF';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 49px;
+
+        color: #333232;
+    }
+
+    .ordenar {
+        position: relative;
+        top: 904px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        padding-bottom: 140px;
+    }
+
+    .spotify {
+
+        margin-left: 0;
+        margin-top: 20px;
+        /* left: 1160px;
+        top: 1896px; */
+
+    }
+
+
+}
+
+@media (min-width:530px) and (max-width:639px) {
+
+    .lista a {
+        font-size: 19px;
+    }
+
+    .ordenarNav {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .cuadroIndex {
+        position: absolute;
+        left: 17%;
+        top: 270px;
+    }
+
+    .textoIndex {
+        position: absolute;
+        width: 420px;
+        height: 49px;
+        left: 15%;
+        top: 0;
+        margin-top: 830px;
+
+        font-family: 'Estedad-VF';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 21px;
+        line-height: 49px;
+
+        color: #333232;
+    }
+
+    .ordenar {
+        position: relative;
+        top: 904px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        padding-bottom: 140px;
+    }
+
+    .spotify {
+        margin-left: 0;
+        margin-top: 20px;
+
+    }
+
+}
+
+@media (min-width:480px) and (max-width:530px) {
+
+    .lista {
+        gap: 40px;
+    }
+
+    .lista .qs {
+        width: 109px;
+        height: 35px;
+    }
+
+    .lista a {
+        font-size: 16px;
+    }
+
+    .btnComp {
+        width: 120px;
+        height: 67px;
+    }
+
+    .ordenarNav {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .cuadroIndex {
+        position: absolute;
+        left: 22%;
+        top: 270px;
+        width: 306px;
+        height: 398px;
+    }
+
+
+    .textoIndex {
+        position: absolute;
+        width: 328px;
+        height: 49px;
+        left: 22%;
+        top: 0;
+        margin-top: 700px;
+
+        font-family: 'Estedad-VF';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 49px;
+
+        color: #333232;
+    }
+
+    .ordenar {
+        position: relative;
+        top: 904px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        padding-bottom: 140px;
+    }
+
+    .spotify {
+
+        margin-left: 0;
+        margin-top: 20px;
+        /* left: 1160px;
+        top: 1896px; */
+
+    }
+
+
+}
+
+@media (max-width:479px) {
+
+    .lista {
+        gap: 40px;
+    }
+
+    .lista .qs {
+        width: 109px;
+        height: 35px;
+    }
+
+    .lista a {
+        font-size: 16px;
+    }
+
+    .btnComp {
+        width: 120px;
+        height: 67px;
+    }
+
+    .ordenarNav {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .cuadroIndex {
+        position: absolute;
+        left: 15%;
+        top: 270px;
+        width: 306px;
+        height: 398px;
+    }
+
+
+    .textoIndex {
+        position: absolute;
+        width: 328px;
+        left: 13%;
+        top: 0;
+        margin-top: 700px;
+
+        font-size: 17px;
+
+        color: #333232;
+    }
+
+    .ordenar {
+        position: relative;
+        top: 904px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        padding-bottom: 140px;
+    }
+
+    .spotify {
+
+        margin-left: 0;
+        margin-top: 20px;
+
+    }
+
+}
